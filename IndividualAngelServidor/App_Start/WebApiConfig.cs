@@ -19,6 +19,7 @@ namespace IndividualAngelServidor
 
             // Web API routes
             config.MapHttpAttributeRoutes();
+            config.EnableCors();
 
             config.Routes.MapHttpRoute(
                 name: "DefaultApi",
